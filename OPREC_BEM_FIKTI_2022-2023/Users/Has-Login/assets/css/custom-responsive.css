@@ -1,0 +1,466 @@
+/* CUSTOM CSS */
+
+div.dataTables_wrapper div.dataTables_filter label {
+  color: white !important;
+}
+
+.custom-table-history {
+  padding: 7px !important;
+}
+
+.shadow-customs {
+  box-shadow: 5px 8px 12px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 8px 12px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 8px 12px 0px rgba(0, 0, 0, 0.4);
+}
+
+.text-wellcome-edit {
+  color: white;
+}
+
+.text-list-logo {
+  color: #54337e;
+}
+
+.text-list-dept-biro {
+  color: #54337e;
+  text-align: center;
+}
+
+.card-bg-customs {
+  background-color: #ffffff;
+  opacity: 0.4px;
+  border-radius: 10px;
+}
+
+.input--file {
+  position: relative;
+  color: #7f7f7f;
+  margin-top: -50px;
+  margin-left: 150px;
+}
+
+.input--file input[type="file"] {
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 10px;
+  opacity: 0;
+}
+
+.images-biodata {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.btn-custom-submit {
+  background-color: #fff;
+  color: #54337e;
+  font-size: 24pt;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.font-button {
+  font-size: 12pt;
+}
+
+.images-biodata {
+  border-radius: 50%;
+}
+
+
+@media (min-width: 320px) {
+  .input--file {
+    position: absolute;
+    color: #7f7f7f;
+    margin-top: -45px;
+    margin-left: 110px;
+  }
+
+  .input--file input[type="file"] {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 10px;
+    opacity: 0 !important;
+  }
+
+  .images-biodata {
+    width: 150px;
+    height: 150px;
+  }
+
+  .icon--camera {
+    width: 40px;
+    height: 40px;
+  }
+
+  .images-desc-logo {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 0px !important;
+  }
+
+  .images-desc-logo-au {
+    width: 120px;
+    height: 120px;
+    padding-bottom: 0px !important;
+  }
+
+  .deskripsi-dept-biro {
+    font-size: 10pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 30px 20px 30px !important;
+  }
+
+  .bidang-mk {
+    font-size: 9pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 15px 0px 15px !important;
+  }
+
+}
+
+@media (min-width: 360px) {
+  .input--file {
+    position: absolute;
+    color: #7f7f7f;
+    margin-top: -40px;
+    margin-left: 90px;
+  }
+
+  .input--file input[type="file"] {
+    position: absolute;
+    margin-left: -43px;
+    margin-top: 10px;
+    opacity: 0;
+  }
+
+  .images-biodata {
+    width: 50%;
+  }
+
+  .icon--camera {
+    width: 45px;
+    height: 45px;
+  }
+
+  .deskripsi-dept-biro {
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px !important;
+  }
+
+  .bidang-mk {
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 15px 15px 15px !important;
+  }
+}
+
+@media (min-width: 375px) {
+  .input--file {
+    position: absolute;
+    color: #7f7f7f;
+    margin-top: -50px;
+    margin-left: 150px;
+  }
+
+  .input--file input[type="file"] {
+    position: absolute;
+    margin-left: -43px;
+    margin-top: 10px;
+    opacity: 0;
+  }
+
+  .images-biodata {
+    width: 200px;
+    height: 200px;
+  }
+
+  .icon--camera {
+    width: 45px;
+    height: 45px;
+  }
+
+  .deskripsi-dept-biro {
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 30px 20px 30px !important;
+  }
+
+  .bidang-mk {
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 15px 15px 15px !important;
+  }
+
+}
+
+@media (min-width: 425px) {
+  .input--file {
+    position: absolute;
+    color: #7f7f7f;
+    margin-top: -55px;
+    margin-left: 150px;
+  }
+
+  .input--file input[type="file"] {
+    position: absolute;
+    margin-left: -37px;
+    margin-top: 10px;
+    opacity: 0;
+  }
+
+  .images-biodata {
+    width: 200px;
+    height: 200px;
+  }
+
+  .deskripsi-dept-biro {
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px !important;
+  }
+
+  .bidang-mk {
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 15px 15px 15px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .input--file {
+    position: absolute;
+    color: #7f7f7f;
+    margin-top: -50px;
+    margin-left: 120px;
+  }
+
+  .input--file input[type="file"] {
+    position: absolute;
+    margin-left: -37px;
+    margin-top: 10px;
+    opacity: 0;
+  }
+
+  .images-biodata {
+    width: 30%;
+  }
+
+  .deskripsi-dept-biro {
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px !important;
+  }
+
+  .bidang-mk {
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 15px 15px 15px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .input--file {
+    position: absolute;
+    color: #7f7f7f;
+    margin-top: -65px;
+    margin-left: 190px;
+  }
+
+  .input--file input[type="file"] {
+    position: absolute;
+    margin-left: -46px;
+    margin-top: 10px;
+    opacity: 0;
+  }
+
+  .images-biodata {
+    width: 250px;
+    height: 250px;
+  }
+
+  .icon--camera {
+    width: 50px;
+    height: 50px;
+  }
+
+  .images-desc-logo {}
+
+  .deskripsi-dept-biro {
+    font-size: 11pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px !important;
+  }
+
+  .bidang-mk {
+    font-size: 11pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 15px 15px 15px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .input--file {
+    position: absolute;
+    color: #7f7f7f;
+    margin-top: -65px;
+    margin-left: 190px;
+  }
+
+  .input--file input[type="file"] {
+    position: absolute;
+    margin-left: -46px;
+    margin-top: 10px;
+    opacity: 0;
+  }
+
+  .images-biodata {
+    width: 250px;
+    height: 250px;
+  }
+
+  .icon--camera {
+    width: 50px;
+    height: 50px;
+  }
+
+  .images-desc-logo {}
+
+  .deskripsi-dept-biro {
+    font-size: 11pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 55px 25px 15px 10px !important;
+  }
+
+  .bidang-mk {
+    font-size: 11pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 15px 15px 15px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .input--file {
+    position: relative;
+    color: #7f7f7f;
+    margin-top: -50px;
+    margin-left: 150px;
+  }
+
+  .input--file input[type="file"] {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 10px;
+    opacity: 0;
+  }
+
+  .images-biodata {
+    width: 210px;
+    height: 210px;
+  }
+
+  .icon--camera {
+    width: 40px;
+    height: 40px;
+  }
+
+  .images-desc-logo {
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+  }
+
+  .capt-logo-au {
+    font-size: 12pt;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .deskripsi-dept-biro {
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 12px 15px 12px !important;
+  }
+
+  .bidang-mk {
+    font-size: 12pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 15px 15px 15px !important;
+  }
+
+  .deskripsi-dept-biro-intern {
+    font-size: 12pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 17px 25px 15px 0px !important;
+  }
+
+  .judul-deskripsi-dept-biro-intern {
+    font-size: 21pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 00px 15px 0px 0px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .input--file {
+    position: relative;
+    color: #7f7f7f;
+    margin-top: -50px;
+    margin-left: 150px;
+  }
+
+  .input--file input[type="file"] {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 10px;
+    opacity: 0;
+  }
+
+  .images-biodata {
+    width: 210px;
+    height: 210px;
+  }
+
+  .icon--camera {
+    width: 40px;
+    height: 40px;
+  }
+
+  .images-desc-logo {
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+  }
+
+  .capt-logo-au {
+    font-size: 12pt;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .deskripsi-dept-biro {
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 12px 15px 12px !important;
+  }
+
+  .bidang-mk {
+    font-size: 12pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 15px 15px 15px !important;
+  }
+
+  .deskripsi-dept-biro-intern {
+    font-size: 12pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 17px 25px 15px 0px !important;
+  }
+
+  .judul-deskripsi-dept-biro-intern {
+    font-size: 21pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 00px 15px 0px 0px !important;
+  }
+}
